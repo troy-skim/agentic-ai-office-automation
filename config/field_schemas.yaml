@@ -1,0 +1,204 @@
+invoice:
+  invoice_number:
+    type: string
+    required: false
+    description: Unique invoice identifier
+  date:
+    type: date
+    required: false
+    description: Date the invoice was issued
+  due_date:
+    type: date
+    required: false
+    description: Date payment is due
+  vendor:
+    type: string
+    required: false
+    description: Vendor or seller name
+  customer:
+    type: string
+    required: false
+    description: Customer or buyer name
+  billing_address:
+    type: string
+    required: false
+    description: Address for billing
+  shipping_address:
+    type: string
+    required: false
+    description: Address for shipping, if different from billing
+  line_items:
+    type: list
+    required: false
+    description: List of items with description, quantity, unit_price, amount
+  subtotal:
+    type: number
+    required: false
+    description: Total before tax and discounts
+  tax:
+    type: number
+    required: false
+    description: Tax amount
+  discounts:
+    type: number
+    required: false
+    description: Any discount applied
+  total:
+    type: number
+    required: true
+    description: Final invoice total after tax and discounts
+  notes:
+    type: string
+    required: false
+    description: Additional notes or comments
+  payment_info:
+    type: string
+    required: false
+    description: Payment instructions or info
+  terms:
+    type: string
+    required: false
+    description: Terms and conditions
+
+application_form:
+  first_name:
+    type: string
+    required: true
+  last_name:
+    type: string
+    required: true
+  email:
+    type: string
+    required: true
+  phone:
+    type: string
+    required: true
+  position:
+    type: string
+    required: true
+  desired_salary:
+    type: number
+    required: false
+  date_available:
+    type: date
+    required: false
+  address:
+    type: string
+    required: false
+  city:
+    type: string
+    required: false
+  state:
+    type: string
+    required: false
+  zip:
+    type: string
+    required: false
+  home_phone:
+    type: string
+    required: false
+  ssn:
+    type: string
+    required: false
+  us_citizen:
+    type: boolean
+    required: false
+  felony_conviction:
+    type: boolean
+    required: false
+  drug_screening:
+    type: boolean
+    required: false
+  education_school_1:
+    type: string
+    required: false
+  education_location_1:
+    type: string
+    required: false
+  education_years_attended_1:
+    type: number
+    required: false
+  education_degree_1:
+    type: string
+    required: false
+  education_major_1:
+    type: string
+    required: false
+  education_school_2:
+    type: string
+    required: false
+  education_location_2:
+    type: string
+    required: false
+  education_years_attended_2:
+    type: number
+    required: false
+  education_degree_2:
+    type: string
+    required: false
+  education_major_2:
+    type: string
+    required: false
+  employment_employer:
+    type: string
+    required: false
+  employment_dates_employed:
+    type: string
+    required: false
+  employment_work_phone:
+    type: string
+    required: false
+  employment_position:
+    type: string
+    required: false
+  employment_may_contact:
+    type: boolean
+    required: false
+  _aliases:
+    name: ["applicant_name", "full_name"]
+    email: ["email_address"]
+    phone: ["contact_number", "home_phone"]
+    address: ["residential_address"]
+    ssn: ["social_security_number"]
+
+meeting_summary:
+  title:
+    type: string
+    required: false
+    description: Title of the meeting
+  date:
+    type: date
+    required: true
+    description: Date the meeting occurred
+  time:
+    type: string
+    required: false
+    description: Time of the meeting
+  location:
+    type: string
+    required: false
+    description: Meeting location
+  attendees:
+    type: list
+    required: true
+    description: List of attendees
+  agenda:
+    type: list
+    required: false
+    description: List of topics discussed
+  summary:
+    type: string
+    required: true
+    description: Summary of the discussion
+  action_items:
+    type: list
+    required: false
+    description: Tasks or next steps
+  decisions:
+    type: list
+    required: false
+    description: Decisions made during the meeting
+  next_meeting:
+    type: string
+    required: false
+    description: Info about next scheduled meeting

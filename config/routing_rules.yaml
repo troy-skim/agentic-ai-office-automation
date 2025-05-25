@@ -1,0 +1,11 @@
+invoice:
+  destination: excel
+
+application_form:
+  destination: gsheet
+
+meeting_summary:
+  destination: gsheet
+
+resume:
+  destination: airtable

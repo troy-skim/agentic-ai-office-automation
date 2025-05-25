@@ -1,0 +1,11 @@
+invoice:
+  keywords: ["Invoice", "Receipt", "Total Amount", "Due Date", "Bill To"]
+
+application_form:
+  keywords: ["Name", "Email", "Phone", "Position Applied", "Education", "Employment", "Experience"]
+
+meeting_summary:
+  keywords: ["Meeting Date", "Attendees", "Agenda", "Action Items"]
+
+resume:
+  keywords: ["Education", "Experience", "Skills", "Projects", "Contact"]
