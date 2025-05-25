@@ -87,7 +87,7 @@ python run.py data/sample_pdfs/meeting_summary_example_01.pdf --sheet_name Meeti
 
 - **Python** 3.12
 - **Gemini** 1.5 Flash Api (Google Generative AI)
-- **pymupdf*, **pdfplumber**, **Tesseract OCR**
+- **pymupdf**, **pdfplumber**, **Tesseract OCR**
 - **gspread** for Google Sheets integration
 - **pandas** for data formatting
 - **black** for code formatting
