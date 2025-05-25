@@ -53,6 +53,7 @@ agentic-ai-office-automation/
 ├── data/              # Sample PDFs and outputs
 ├── run.py             # CLI Entry point
 ├── requirements.txt   # Python dependencies
+├── LICENsE            # MIT LICENse
 └── README.md          # You’re here
 ```
 
@@ -93,6 +94,6 @@ python run.py data/sample_pdfs/meeting_summary_example_01.pdf --sheet_name Meeti
 
 ---
 
-## Licence
+## License
 
-MIT Licence. See included LICENSE.
+MIT License. See included LICENSE.
