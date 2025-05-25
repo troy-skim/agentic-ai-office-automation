@@ -53,7 +53,7 @@ agentic-ai-office-automation/
 ├── data/              # Sample PDFs and outputs
 ├── run.py             # CLI Entry point
 ├── requirements.txt   # Python dependencies
-├── LICENsE            # MIT LICENse
+├── LICENSE            # MIT LICENSE
 └── README.md          # You’re here
 ```
 
