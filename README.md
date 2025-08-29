@@ -1,6 +1,4 @@
-# agentic-ai-office-automation
-
-# Agentic AI Office Automation
+# Agentic AI Document Automation
 
 A modular Agentic AI system that reads diverse PDF documents, extracts structured information using LLMs, and automatically routes the content into the correct office application — like Excel or Google Sheets. Built for real-world Field Force Automation (FFA), this project demonstrates how AI agents can autonomously act on unstructured inputs.
 
